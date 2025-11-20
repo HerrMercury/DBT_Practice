@@ -33,4 +33,9 @@ models:
   siva_dbt:
     # Config indicated by + and applies to all files under models/example/
     bronze:
+      +schema: DBT_BRONZE
       +materialized: table 
+    silver:
+      +schema: DBT_SILVER
+    gold:
+      +schema: DBT_GOLD

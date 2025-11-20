@@ -5,7 +5,7 @@ siva_dbt:
       database: DBT_PRACTICE
       password: P@s$w0rd@00001
       role: ACCOUNTADMIN
-      schema: DBT_BRONZE
+      schema: DEFAULT
       threads: 1
       type: snowflake
       user: Siva
@@ -19,7 +19,7 @@ siva_dbt_practice:
       database: DBT_PRACTICE
       password: P@s$w0rd@00001
       role: ACCOUNTADMIN
-      schema: DBT_RAW
+      schema: DEFAULT
       threads: 1
       type: snowflake
       user: Siva
