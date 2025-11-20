@@ -1,0 +1,27 @@
+siva_dbt:
+  outputs:
+    dev:
+      account: fmmmson-ob49771
+      database: DBT_PRACTICE
+      password: P@s$w0rd@00001
+      role: ACCOUNTADMIN
+      schema: DBT_BRONZE
+      threads: 1
+      type: snowflake
+      user: Siva
+      warehouse: COMPUTE_WH
+  target: dev
+siva_dbt_practice:
+  outputs:
+    dev:
+      account: fmmmson-ob49771
+      client_session_keep_alive: false
+      database: DBT_PRACTICE
+      password: P@s$w0rd@00001
+      role: ACCOUNTADMIN
+      schema: DBT_RAW
+      threads: 1
+      type: snowflake
+      user: Siva
+      warehouse: COMPUTE_WH
+  target: dev

@@ -1,0 +1,11 @@
+sources:
+  - name: DBT_RAW
+    database: DBT_PRACTICE  
+    schema: DBT_RAW  
+    tables:
+      - name: FACT_SALES
+      - name: FACT_RETURNS
+      - name: DIM_PRODUCT
+      - name: DIM_CUSTOMER
+      - name: DIM_STORE
+      - name: DIM_DATE
