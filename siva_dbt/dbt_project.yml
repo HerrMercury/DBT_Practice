@@ -37,5 +37,10 @@ models:
       +materialized: table 
     silver:
       +schema: DBT_SILVER
+      +materialized: table
     gold:
       +schema: DBT_GOLD
+seeds:
+  siva_dbt:
+    +schema: DBT_BRONZE
+    +alias: COUNTRY_CODES

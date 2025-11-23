@@ -1,3 +1,8 @@
+{{
+  config(
+    alias = 'STG_DATE',
+    )
+}}
 SELECT 
     *
 FROM 
