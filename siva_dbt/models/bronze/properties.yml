@@ -1,3 +1,5 @@
+version: 2
+
 models:
   - name: bronze_sales
     columns:
@@ -8,9 +10,8 @@ models:
       - name: store_sk
         data_tests:
           - relationships:
-              arguments:
-                to: ref('bronze_store')
-                field: store_sk
+              to: ref('bronze_store')
+              field: store_sk
       - name: gross_amount
         data_tests:
           - generic_non_negative
@@ -25,8 +26,7 @@ models:
       - name: store_name
         tests:
           - accepted_values:
-              arguments:
-                values: ['MegaMart Manhattan','MegaMart Brooklyn','MegaMart Austin','MegaMart San Jose','MegaMart Toronto']
+              values: ['MegaMart Manhattan','MegaMart Brooklyn','MegaMart Austin','MegaMart San Jose','MegaMart Toronto']
               config:
                 severity: warn
 
