@@ -1,6 +1,6 @@
 {{
   config(
-    materialized = 'view',
+    alias = 'STG_STORE',
     )
 }}
 

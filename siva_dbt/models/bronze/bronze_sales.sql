@@ -1,3 +1,8 @@
+{{
+  config(
+    alias = 'STG_SALES',
+    )
+}}
 SELECT 
     *
 FROM 

@@ -1,3 +1,9 @@
+{{
+  config(
+    alias = 'DIM_CUSTOMER',
+    )
+}}
+
 SELECT 
     *
 FROM 
